@@ -38,7 +38,7 @@ class NewPush:
             init_doc(f)
 
 
-parser = argparse.ArgumentParser(description='Your go-to trash command line tool for dropbox.')
+parser = argparse.ArgumentParser(description='Basic command line tool for dropbox.')
 parser.add_argument('-i', '--input', help='Input desired text', required=True)
 args = parser.parse_args()
 
